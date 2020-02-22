@@ -1,4 +1,4 @@
-# ENPM-661_8_Puzzle_Brute_force_search
+# 8_Puzzle_Brute_force_search
 
 The code accepts numbers ranging from 0-8 from the user in any order and then solves the puzzle to get the final form of 
 
