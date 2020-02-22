@@ -29,6 +29,7 @@ def find_index(puzzle):
     j = int(j)
     return i, j
 
+"""Next 4 functions are defined to move the 0 tile left right up down if possible"""
 
 def move_left(data):
     i, j = find_index(data)
@@ -90,6 +91,7 @@ def move_tile(action, data):
     else:
         return None
 
+"""Printing the selected nodes on the console"""
 
 def print_states(list_final):  
     print("printing final solution")
@@ -97,6 +99,7 @@ def print_states(list_final):
         print("Move : " + str(l.act) + "\n" + "Result : " + "\n" + str(l.data) + "\t" + "node number:" + str(l.node_no))
         """list_final is a list of objects that l iterates through and hence that's why l is able to access the values of class Node"""
 
+""" next 3 functions are defined to write to txt file """
 
 def write_path(list_final):  # The nodes that were selected to arrive at goal 
     if os.path.exists("nodePath.txt"):
