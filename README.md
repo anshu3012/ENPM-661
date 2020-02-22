@@ -3,9 +3,7 @@
 The code accepts numbers ranging from 0-8 from the user in any order and then solves the puzzle to get the final form of 
 
 1 2 3
-
 4 5 6
-
 7 8 0
 
 Same number cannot be entered twice
