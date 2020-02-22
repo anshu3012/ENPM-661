@@ -9,6 +9,8 @@ The code accepts numbers ranging from 0-8 from the user in any order and then so
 7 8 0
 
 Same number cannot be entered twice
+The code also checks if the puzzle is solvable or not 
+
 The code also generates 3 txt files which contain the all the explored nodes (Nodes.txt), the final nodes selected to arrive at solution (nodePath.txt) and the node information (NodesInfo.txt)
 
 How to run the code 
